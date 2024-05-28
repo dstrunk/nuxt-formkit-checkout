@@ -30,7 +30,7 @@
           <template #stepActions='{ handlers, node }'>
             <div class='flex justify-between w-full mt-8' v-if='node.props.isActiveStep'>
               <FormKit type='button' @click.prevent='handlers.previous' label='Previous' />
-              <FormKit type='button' @click.prevent='handlers.next' label='Save & Continue' />
+              <FormKit type='button' @click.prevent='addFulfillmentInfo(handlers, node.value)' label='Save & Continue' />
             </div>
           </template>
         </FormKit>
@@ -45,7 +45,7 @@
           <template #stepActions='{ handlers, node }'>
             <div class='flex justify-between w-full mt-8' v-if='node.props.isActiveStep'>
               <FormKit type='button' @click.prevent='handlers.previous' label='Previous' />
-              <FormKit type='button' @click.prevent='handlers.next' label='Save & Continue' />
+              <FormKit type='button' @click.prevent='addRecipientInfo(handlers, node.value)' label='Save & Continue' />
             </div>
           </template>
         </FormKit>
@@ -60,7 +60,7 @@
           <template #stepActions='{ handlers, node }'>
             <div class='flex justify-between w-full mt-8' v-if='node.props.isActiveStep'>
               <FormKit type='button' @click.prevent='handlers.previous' label='Previous' />
-              <FormKit type='button' @click.prevent='handlers.next' label='Submit' />
+              <FormKit type='button' @click.prevent='submitOrder(node.value)' label='Submit' />
             </div>
           </template>
         </FormKit>
@@ -81,7 +81,7 @@ const hasMounted = useHasMounted();
 
 interface Quote {}
 
-async function addBasicInfo(handler: StepHandlers, data: Quote) {
+async function addBasicInfo(handler: StepHandlers, data) {
   handler.next();
   await store.addBasicInfo(data);
 }
@@ -91,15 +91,13 @@ async function addFulfillmentInfo(handler: StepHandlers, data) {
   await store.addFulfillmentInfo(data);
 }
 
-async function addPaymentInfo(handler: StepHandlers, data) {
+async function addRecipientInfo(handler: StepHandlers, data) {
   handler.next();
+  await store.addRecipientInfo(data);
+}
+
+async function submitOrder(data) {
   await store.addPaymentInfo(data);
-}
-
-function updateQuote(quote: Quote) {
-}
-
-function submitOrder(quote: Quote) {
 }
 </script>
 
