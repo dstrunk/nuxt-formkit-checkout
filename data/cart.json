@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 123,
+      "name": "Foo",
+      "description": "Some product",
+      "image": "https://placehold.it/200x200",
+      "price": {
+        "amount": 10.9900,
+        "currency": "USD"
+      }
+    }
+  ]
+}

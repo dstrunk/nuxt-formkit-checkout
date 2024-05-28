@@ -10,8 +10,26 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@formkit/addons": "^1.6.3",
+    "@formkit/nuxt": "^1.6.3",
+    "@pinia/nuxt": "^0.5.1",
+    "@radix-icons/vue": "^1.0.0",
+    "@vueuse/core": "^10.9.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "node-fetch": "^3.3.2",
     "nuxt": "^3.11.2",
+    "nuxt-icon": "^0.6.10",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.8.1",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "villus": "^3.5.0",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0"
   }
 }
