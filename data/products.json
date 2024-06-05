@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Sample Product",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptates.",
+    "price": {
+      "value": 20.500000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Delivery Only Product",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dignissimos dolorem expedita incidunt magni molestias mollitia quasi reiciendis temporibus voluptate? Ab iusto maxime praesentium quo sed, sint sit tempore vitae.",
+    "price": {
+      "value": 14.5000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": 3,
+    "name": "No Same-Day Delivery Product",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum eos expedita repudiandae! Accusamus assumenda beatae dicta, esse facere, fugiat illo necessitatibus, nesciunt officiis quo quos rerum sunt velit? Eius!",
+    "price": {
+      "value": 29.5000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Pickup Only Product",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequatur nesciunt obcaecati omnis, quibusdam rem?",
+    "price": {
+      "value": 100.5000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Cross-sell Product",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis deleniti dolorum ipsam provident sunt?",
+    "price": {
+      "value": 108.5000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Upsell Product",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis eius fuga fugit id impedit laudantium magnam minus neque odit qui quibusdam quod similique sint, tenetur voluptatibus? Ea, voluptates.",
+    "price": {
+      "value": 70.5000,
+      "currency": "USD"
+    }
+  }
+]

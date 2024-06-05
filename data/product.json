@@ -1,0 +1,27 @@
+{
+  "data": {
+    "name": "Sample Product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut consequatur consequuntur dolorem dolorum eligendi esse est exercitationem fuga illo illum, iusto maiores nam natus nesciunt nisi officia omnis quaerat quam quia recusandae repellendus rerum sequi soluta suscipit totam veniam veritatis? Animi asperiores assumenda aut beatae doloremque, dolores earum eius est excepturi impedit ipsum itaque laudantium libero maxime minima nostrum nulla obcaecati, odit perferendis, placeat qui quis quisquam recusandae sit tenetur ut vel voluptas! Consectetur corporis debitis doloremque, eveniet explicabo illo ipsum laudantium nam nobis obcaecati quam quis recusandae sequi ut vel veniam vitae? Accusamus quia quibusdam rerum temporibus vero.",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, quibusdam.",
+    "SKU": "SAMPLE-PROD-666",
+    "price": {
+      "value": 100.4099,
+      "currency": "USD"
+    },
+    "image": "https://example.com/sample-product-image.png",
+    "dimensions": {
+      "length": {
+        "value": "10",
+        "unit": "mm"
+      },
+      "width": {
+        "value": "20",
+        "unit": "mm"
+      },
+      "height": {
+        "value": "15",
+        "unit": "mm"
+      }
+    }
+  }
+}
